@@ -1,1 +1,27 @@
-/Users/kat/.config/lsd/icons.yaml
+name:
+  .trash: 
+  .prettierignore: 
+  .stylelintrc: 
+  .nvmrc: 
+  bin: 
+  desktop: 󱂵
+  dist: 
+  documents: 󰲃
+  lib: 
+  libexec: 
+  node_modules: 
+  scss: 
+  share: 
+  package.json: 
+  package-lock.json: 
+  makefile: 
+extension:
+  docx: 󰧮
+  md: 󰧮
+  csv: 
+  xlsx: 
+filetype:
+  dir: 
+  file: 󰈔
+  executable: 
+  special: 

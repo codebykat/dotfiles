@@ -1,1 +1,176 @@
-/Users/kat/.config/vivid/themes/nightfox2.yml
+colors:
+  # iterm colors
+  bg: "192330" # iterm: bg, cursor text
+
+  # iterm theme colors
+  # links: "005bbb"
+  # selection: "2b3b51"
+  # badge: "ff2600"
+
+  # nightfox theme colors
+  fg: "cdcecf" # iterm: fg, bold, cursor, selected text
+
+  black: "393b44"
+  red: "c94f6d"
+  green: "81b29a"
+  yellow: "dbc074"
+  blue: "719cd6"
+  magenta: "9d79d6" # purple
+  cyan: "63cdcf"
+  pink: "d67ad2"
+  white: "dfdfe0"
+  orange: "f4a261"
+
+  bright_black: "575860"
+  bright_red: "d16983"
+  bright_green: "8ebaa4"
+  # bright_yellow: "e0c989"
+  bright_yellow: "ffffff"
+  bright_blue: "86abdc"
+  bright_magenta: "baa1e2"
+  bright_cyan: "7ad5d6"
+  bright_white: "e4e4e5"
+
+  # extra iterm UI colors
+  lilac: "c4b4ff"
+
+  # colors from the jellybeans theme
+  # bg: "151515"
+  darker_grey: "1c1c1c"
+  dark_grey: "262626"
+  grey: "888888"
+  blue_grey: "a0a8b0"
+  light_grey: "d8dee9"
+  # white: "ffffff"
+  dark_red: "902020"
+  # red: "cf6a4c"
+  red_orange: "ffb964"
+  bright_orange: "fad07a"
+  pale_gold: "dad085"
+  # pink: "f0a0c0"
+  # lilac: "c6b6ee"
+  dark_blue: "2b5b77"
+  deep_blue: "0d61ac"
+  # blue: "8197bf"
+  # bright_blue: "7697d6"
+  # cyan: "8fbfdc"
+  blue_green: "668799"
+  # green: "799d6a"
+  # bright_green: "70b950"
+  brighter_green: "65c254"
+  light_green: "99ad6a"
+  dark_green: "556633"
+
+core:
+  normal_text: {}
+  regular_file: {}
+  reset_to_normal: {}
+
+  directory:
+    foreground: lilac
+    font-style: bold
+
+  symlink:
+    foreground: bright_orange
+
+  multi_hard_link: {}
+
+  fifo:
+    foreground: pink
+
+  socket:
+    foreground: pink
+
+  door:
+    foreground: pink
+
+  block_device:
+    foreground: red
+
+  character_device:
+    foreground: red
+
+  broken_symlink:
+    foreground: bright_orange
+    background: dark_red
+
+  missing_symlink_target:
+    foreground: bright_orange
+    background: dark_red
+
+  setuid: {}
+
+  setgid: {}
+
+  file_with_capability: {}
+
+  sticky_other_writable: {}
+
+  other_writable: {}
+
+  sticky: {}
+
+  executable_file:
+    # foreground: red_orange # original theme
+    font-style: bold
+    foreground: green
+
+text:
+  special:
+    # foreground: brighter_green # original theme
+    foreground: pale_gold
+    font-style: bold
+
+  todo:
+    # foreground: brighter_green # original theme
+    foreground: green
+
+  licenses:
+    foreground: light_green
+    font-style: italic
+
+  configuration:
+    # foreground: light_green # original theme
+    foreground: grey
+    font-style: italic
+
+  other:
+    foreground: green
+
+markup:
+  # foreground: blue_green # original theme
+  foreground: bright_blue
+
+programming:
+  source:
+    # foreground: blue # original theme
+    foreground: cyan
+
+  tooling:
+    foreground: cyan
+
+    continuous-integration:
+      foreground: bright_cyan
+
+media:
+  # foreground: pale_gold # original theme
+  foreground: bright_magenta
+
+office:
+  # foreground: blue_green # original theme
+  foreground: bright_blue
+
+archives:
+  # foreground: bright_orange # original theme
+  foreground: bright_blue
+  # font-style: underline
+  # background: blue
+
+executable:
+  # foreground: red_orange # original theme
+  foreground: green
+  font-style: bold
+
+unimportant:
+  foreground: grey
+  font-style: italic
