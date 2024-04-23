@@ -1,0 +1,1 @@
+/Users/kat/.config/fish/conf.d/nightfox.fish
